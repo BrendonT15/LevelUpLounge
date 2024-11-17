@@ -1,0 +1,26 @@
+.PostCard {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Spacing inside the card */
+    margin-top: 16px;
+    margin-bottom: 16px; /* Space between cards */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.PostCard-Details {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Neutral text color */
+}
+
+.PostCard h2 {
+    margin: 4px 0; /* Small spacing between headers */
+}
+
+.PostCard h2:first-of-type {
+    font-weight: bold; /* Bold the title */
+}
+
+.PostCard h2:last-of-type {
+    font-size: 0.9em; /* Slightly smaller for upvotes */
+    color: #888; /* Muted color for less emphasis */
+}

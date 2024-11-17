@@ -1,0 +1,90 @@
+/* Overall container for the details page */
+/* Styling for the card containing details */
+.Details {
+    background-color: rgba(20, 20, 20, 0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.details-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Timestamp styling */
+.details-card h2 {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+/* Title styling */
+.details-card h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Content styling */
+.details-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Comments section */
+.comments-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+/* Comments heading */
+.comments-container h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Individual comment styling */
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    color: #333;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+/* Buttons */
+button {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004085;
+}
